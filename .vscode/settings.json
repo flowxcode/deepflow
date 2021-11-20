@@ -1,0 +1,4 @@
+{
+    "git.ignoreRebaseWarning": true,
+    "python.pythonPath": "${env:HOME}/.local/share/virtualenvs/deepflow-eho_wYiM/bin/python"
+}
