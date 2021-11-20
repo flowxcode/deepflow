@@ -8,7 +8,7 @@
             "name": "Python: Current File",
             "type": "python",
             "request": "launch",
-            //"program": "${file}",
+            "program": "${file}",
             "console": "integratedTerminal",
             //"program": "/home/linx/.local/share/virtualenvs/deepflow-eho_wYiM/<program>",
         }
