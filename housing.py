@@ -4,7 +4,7 @@ print("--------------")
 
 # Load and prepare data, convert labels to one-hot encoding
 
-housing = keras.datasets.boston_housing
+housing = tf.keras.datasets.boston_housing
 (x_train, y_train), (x_test, y_test) = housing.load_data()
 
 print(x_train)
