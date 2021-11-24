@@ -4,10 +4,16 @@ print("--------------")
 
 # Load and prepare data, convert labels to one-hot encoding
 
-mnist= tf.keras.datasets.mnist
-(x_train, y_train), (x_test, y_test) = mnist.load_data()
+housing = keras.datasets.boston_housing
+(x_train, y_train), (x_test, y_test) = housing.load_data()
 
 print(x_train)
+
+
+
+
+
+
 
 x_train, x_test= x_train/ 255.0, x_test/ 255.0
 y_train= tf.keras.utils.to_categorical(y_train, num_classes=10)
