@@ -9,6 +9,8 @@ housing = tf.keras.datasets.boston_housing
 
 print(x_train)
 
+xasdf = x_train.sh
+
 
 
 
