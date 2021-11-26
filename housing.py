@@ -8,6 +8,7 @@ housing = tf.keras.datasets.boston_housing
 (x_train, y_train), (x_test, y_test) = housing.load_data()
 
 print(x_train)
+print(x_train[:,0].format(a))
 
 xasdf = x_train.sh
 
