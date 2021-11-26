@@ -1,4 +1,6 @@
 import tensorflow as tf
+import numpy as np
+
 print(tf.__version__)
 print("--------------")
 
@@ -8,9 +10,12 @@ housing = tf.keras.datasets.boston_housing
 (x_train, y_train), (x_test, y_test) = housing.load_data()
 
 print(x_train)
-print(x_train[:,0].format(a))
+np.set_printoptions(suppress=True)
+print(x_train)
 
-xasdf = x_train.sh
+
+
+xasdf = x_train.shape
 
 
 
