@@ -13,7 +13,9 @@ print(x_train)
 np.set_printoptions(suppress=True)
 print(x_train)
 
-
+print("CRIM:", x_train[:,0])
+print(type(x_train[:,0]))
+print(np.max(x_train[:,0]))
 
 xasdf = x_train.shape
 
